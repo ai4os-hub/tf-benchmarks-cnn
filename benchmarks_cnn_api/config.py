@@ -28,7 +28,8 @@ DATA_DIR = os.path.join(IN_OUT_BASE_DIR, 'data')
 MODELS_DIR = os.path.join(IN_OUT_BASE_DIR, 'models')
 
 CIFAR10_REMOTE_URL="https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz"
-IMAGENET_MINI_REMOTE_URL="https://nc.deep-hybrid-datacloud.eu/s/aZr8Hi5Jk7GMSe4/download?path=%2F&files=imagenet_mini.tar"
+#IMAGENET_MINI_REMOTE_URL="https://nc.deep-hybrid-datacloud.eu/s/aZr8Hi5Jk7GMSe4/download?path=%2F&files=imagenet_mini.tar"
+IMAGENET_MINI_REMOTE_URL="https://share.services.ai4os.eu/index.php/s/KqtjJSzznt9NAQ9/download?path=%2F&files=imagenet_mini.tar"
 
 # FLAAT needs a list of trusted OIDC Providers.
 # we select following three providers:

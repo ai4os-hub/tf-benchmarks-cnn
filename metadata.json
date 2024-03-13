@@ -3,7 +3,7 @@
     "summary": "tf_cnn_benchmarks accessed via DEEPaaS API",
     "description": [
 		   "[tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks)",
-	       "from TensorFlow team accessed via [DEEPaaS API](https://github.com/indigo-dc/DEEPaaS)",
+	       "from TensorFlow team accessed via [DEEPaaS API](https://github.com/ai4os/DEEPaaS)",
            "",
            "tf_cnn_benchmarks contains implementations of several popular convolutional models ",
            "(e.g. Googlenet, Inception, Overfeat, Resnet, VGG), ",
@@ -41,13 +41,13 @@
     "license": "MIT",
     "date_creation": "2019-12-19",
     "sources": {
-		"dockerfile_repo": "https://github.com/deephdc/DEEP-OC-benchmarks_cnn",
-		"docker_registry_repo": "deephdc/deep-oc-benchmarks_cnn",
-		"code": "https://github.com/deephdc/benchmarks_cnn_api"
+		"dockerfile_repo": "https://github.com/ai4os-hub/tf-benchmarks-cnn",
+		"docker_registry_repo": "ai4oshub/tf-benchmarks-cnn",
+		"code": "https://github.com/ai4os-hub/tf-benchmarks-cnn"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/DEEP-OC-benchmarks_cnn/master",
-        "build_status_url": "https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/DEEP-OC-benchmarks_cnn/job/master"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-benchmarks-cnn/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-benchmarks-cnn/job/main/"
     },
     "tosca": [
         {

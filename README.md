@@ -1,9 +1,9 @@
 DEEP Open Catalogue: API for Tensorflow Benchmarks
 ==============================
 
-[![Build Status](https://jenkins.indigo-datacloud.eu/buildStatus/icon?job=Pipeline-as-code/DEEP-OC-org/benchmarks_cnn_api/master)](https://jenkins.indigo-datacloud.eu/job/Pipeline-as-code/job/DEEP-OC-org/job/benchmarks_cnn_api/job/master)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-benchmarks-cnn/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-benchmarks-cnn/job/main/)
 
-[tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) from TensorFlow team accessed via [DEEPaaS API V2](https://github.com/indigo-dc/DEEPaaS).
+[tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) from TensorFlow team accessed via [DEEPaaS API V2](https://github.com/ai4os/DEEPaaS).
 
 This is a **wrapper** to access the [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks), **not the benchmarks code** itself! 
 One has to install [tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks)
@@ -14,9 +14,9 @@ $ git clone --depth 1 -b cnn_tf_v1.10_compatible https://github.com/tensorflow/b
 $ export PYTHONPATH=$PYTHONPATH:$PWD/benchmarks/scripts/tf_cnn_benchmarks
 ```
 
-The **recommended way** to run [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) through [DEEPaaS API](https://github.com/indigo-dc/DEEPaaS)
-is to use our [Docker images](https://hub.docker.com/r/deephdc/deep-oc-benchmarks_cnn) also available through the [DEEP Open Catalog](https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-benchmarks-cnn.html).
-The Docker images already **contain** [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) and [DEEPaaS API](https://github.com/indigo-dc/DEEPaaS).
+The **recommended way** to run [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) through [DEEPaaS API](https://github.com/ai4os/DEEPaaS)
+is to use our [Docker images](https://hub.docker.com/r/ai4oshub/tf-benchmarks-cnn) also available through the [DEEP Open Catalog](https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-benchmarks-cnn.html).
+The Docker images already **contain** [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) and [DEEPaaS API](https://github.com/ai4os/DEEPaaS).
 
 ## From [tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks):
 tf_cnn_benchmarks contains implementations of several popular convolutional
