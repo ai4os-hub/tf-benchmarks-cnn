@@ -1,4 +1,4 @@
-DEEP Open Catalogue: API for Tensorflow Benchmarks
+DEEPaaS API for Tensorflow Benchmarks
 ==============================
 
 [![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-benchmarks-cnn/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-benchmarks-cnn/job/main/)
