@@ -15,7 +15,7 @@ $ export PYTHONPATH=$PYTHONPATH:$PWD/benchmarks/scripts/tf_cnn_benchmarks
 ```
 
 The **recommended way** to run [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) through [DEEPaaS API](https://github.com/ai4os/DEEPaaS)
-is to use our [Docker images](https://hub.docker.com/r/ai4oshub/tf-benchmarks-cnn) also available through the [DEEP Open Catalog](https://marketplace.deep-hybrid-datacloud.eu/modules/deep-oc-benchmarks-cnn.html).
+is to use our [Docker images](https://hub.docker.com/r/ai4oshub/tf-benchmarks-cnn) also available through the [AI4OS Hub](https://dashboard.cloud.ai4eosc.eu/marketplace/modules/tf-benchmarks-cnn).
 The Docker images already **contain** [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) and [DEEPaaS API](https://github.com/ai4os/DEEPaaS).
 
 ## From [tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks):
