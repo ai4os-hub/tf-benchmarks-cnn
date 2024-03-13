@@ -1,13 +1,35 @@
-# external requirements
-Sphinx
-python-dotenv>=0.5.1
-py-cpuinfo
-psutil
-progressbar
+# The following is added by the migration.sh script #
+# Versions are taken from the relevant docker image #
+#
+# For old modules one may need to add:
+# aiohttp~=3.6.0
+# flask~=1.1.0
+# Jinja2~=2.11.0
+# deepaas>=1.3.0
+# flaat~=0.8.0
 
-webargs>=5.5.2
-marshmallow
+#Sphinx~=3.5.1
+python-dotenv~=0.15.0
+py-cpuinfo~=7.0.0
+psutil~=5.7.0
+progressbar~=2.5
+webargs~=5.5.3
+marshmallow~=3.10.0
+deepaas>=1.3.0
+flaat~=0.8.1
+aiohttp~=3.6.0
+flask~=1.1.0
+Jinja2~=2.11.0
 
-deepaas>=1.2.0
-flaat>=0.5.1
-
+# Below is the old content of requirements.txt
+#
+## external requirements
+#Sphinx
+#python-dotenv>=0.5.1
+#py-cpuinfo
+#psutil
+#progressbar
+#webargs>=5.5.2
+#marshmallow
+#deepaas>=1.2.0
+#flaat>=0.5.1
