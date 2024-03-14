@@ -20,6 +20,7 @@ flaat~=0.8.1
 aiohttp~=3.6.0
 flask~=1.1.0
 Jinja2~=2.11.0
+requests-cache==0.5.2
 
 # Below is the old content of requirements.txt
 #

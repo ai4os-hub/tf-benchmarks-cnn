@@ -87,8 +87,8 @@ RUN git clone https://github.com/ai4os/deep-start /srv/.deep-start && \
 # identifies TF version, installs tf_cnn_benchmarks and offical/utils/logs
 ENV BENCHMARK_TYPE ${btype}
 ENV DOCKER_BASE_IMAGE ${image}:${tag}
-RUN git clone -b $branch https://github.com/ai4os-hub/tf-benchmarks-cnn && \
-    cd  tf-benchmarks-cnn && \
+RUN git clone -b $branch https://github.com/ai4os-hub/tf-cnn-benchmarks-api && \
+    cd  tf-cnn-benchmarks-api && \
 # install official TF Benchmarks
     ./pull-tf_cnn_benchmarks.sh --tfbench_path=/srv/tf_cnn_benchmarks && \
     pip3 install --no-cache-dir -e . && \

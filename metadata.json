@@ -41,13 +41,13 @@
     "license": "MIT",
     "date_creation": "2019-12-19",
     "sources": {
-		"dockerfile_repo": "https://github.com/ai4os-hub/tf-benchmarks-cnn",
-		"docker_registry_repo": "ai4oshub/tf-benchmarks-cnn",
-		"code": "https://github.com/ai4os-hub/tf-benchmarks-cnn"
+		"dockerfile_repo": "https://github.com/ai4os-hub/tf-cnn-benchmarks-api",
+		"docker_registry_repo": "ai4oshub/tf-cnn-benchmarks",
+		"code": "https://github.com/ai4os-hub/tf-cnn-benchmarks-api"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-benchmarks-cnn/main",
-        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-benchmarks-cnn/job/main/"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-cnn-benchmarks-api/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-cnn-benchmarks-api/job/main/"
     },
     "tosca": [
         {

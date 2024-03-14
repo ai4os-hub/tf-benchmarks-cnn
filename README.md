@@ -1,7 +1,7 @@
 DEEPaaS API for Tensorflow Benchmarks
 ==============================
 
-[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-benchmarks-cnn/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-benchmarks-cnn/job/main/)
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/tf-cnn-benchmarks-api/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/tf-cnn-benchmarks-api/job/main/)
 
 [tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) from TensorFlow team accessed via [DEEPaaS API V2](https://github.com/ai4os/DEEPaaS).
 
@@ -15,7 +15,7 @@ $ export PYTHONPATH=$PYTHONPATH:$PWD/benchmarks/scripts/tf_cnn_benchmarks
 ```
 
 The **recommended way** to run [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) through [DEEPaaS API](https://github.com/ai4os/DEEPaaS)
-is to use our [Docker images](https://hub.docker.com/r/ai4oshub/tf-benchmarks-cnn) also available through the [AI4OS Hub](https://dashboard.cloud.ai4eosc.eu/marketplace/modules/tf-benchmarks-cnn).
+is to use our [Docker images](https://hub.docker.com/r/ai4oshub/tf-cnn-benchmarks) also available through the [AI4OS Hub](https://dashboard.cloud.ai4eosc.eu/marketplace/modules/tf-cnn-benchmarks-api).
 The Docker images already **contain** [TF Benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks) and [DEEPaaS API](https://github.com/ai4os/DEEPaaS).
 
 ## From [tf_cnn_benchmarks](https://github.com/tensorflow/benchmarks/tree/master/scripts/tf_cnn_benchmarks):
